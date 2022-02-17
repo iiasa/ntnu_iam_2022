@@ -31,11 +31,22 @@ Consumer heterogeneity
 - Cameron et al. (2016) Policy trade-offs between climate mitigation and clean cook-stove access in South Asia. Nature Energy 1. [doi:10.1038/nenergy.2015.10](https://doi.org/10.1038/nenergy.2015.10).
 - McCollum et al. (2017) Improving the behavioral realism of global integrated assessment models: An application to consumers� vehicle choices. Transportation Research Part D: Transport and Environment 55:322-342. [doi:10.1016/j.trd.2016.04.003](https://doi.org/10.1016/j.trd.2016.04.003).
 
+Transport sector modeling
+-------------------------
+- Yeh et al. (2017) Detailed assessment of global transport-energy models’ structures and projections. Transportation Research Part D: Transport and Environment 55, pp 294-309 .[doi:10.1016/j.trd.2016.11.001](https://doi.org/10.1016/j.trd.2016.11.001)
+- van Vuuren et al. (2017) A special issue on model-based long-term transport scenarios: Model comparison and new methodological developments to improve energy and climate policy analysis. Transportation Research Part D: Transport and Environment 55, pp 277-280. [doi:10.1016/j.trd.2017.05.003](https://doi.org/10.1016/j.trd.2017.05.003)
+- International Transport Energy Modeling (iTEM) consortium [website](https://transportenergy.org/)
+
 Industrial ecology integration
 ------------------------------
 - Fricko et al. (2016) Energy sector water use implications of a 2C climate policy. Environmental Research Letters 11 034011, [doi:10.1088/1748-9326/11/3/034011](https://doi.org/10.1088/1748-9326/11/3/034011).
 - Arvesen et al. (2018) Deriving life cycle assessment coefficients for application in integrated assessment modelling. Environmental Modelling & Software 99, pp 111-125, [doi:10.1016/j.envsoft.2017.09.010](https://doi.org/10.1016/j.envsoft.2017.09.010)
 - Pehl et al. (2018) Understanding future emissions from low-carbon power systems by integration of life-cycle assessment and integrated energy modelling. Nature Energy 2, pp 939–945, [doi:10.1038/s41560-017-0032-9](https://doi.org/10.1038/s41560-017-0032-9)
+
+Uncertainty analysis using IAMs
+-------------------------------
+- Marangoni, et al. (2017) Sensitivity of projected long-term CO2 emissions across the Shared Socioeconomic Pathways. Nature Climate Change 7(2), pp 113-117, [doi:10.1038/nclimate3199](https://doi.org/10.1038/nclimate3199)
+- Butler et al. (2014) Identifying parametric controls and dependencies in integrated assessment models using global sensitivity analysis. Environmental Modelling and Software 59, pp 10-29, [doi:10.1016/j.envsoft.2014.05.001](https://doi.org/10.1016/j.envsoft.2014.05.001)
 
 Good modeling practice
 ----------------------
