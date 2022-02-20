@@ -28,7 +28,7 @@ Model data
   - [Appendix C: techno-economic assumptions](https://ars.els-cdn.com/content/image/1-s2.0-S0360544218325039-mmc3.xlsx)
 - International Energy Agency (IEA): World Energy Model - Techno-economic inputs ([IEA 2021](https://www.iea.org/reports/world-energy-model/techno-economic-inputs))
 - World Resources Institute (WRI): Global Power Plant Database V1.3.0, June 2021 ([WRI 2019](http://datasets.wri.org/dataset/globalpowerplantdatabase))
-- International Energy Agency (IEA): Energy Balances for 2015 for selected countries from 2017 revision ([IEA 2017](./IEA_energy_balances_2015.xlsx))
+- International Energy Agency (IEA): Energy Balances for 2015 for selected countries from 2017 revision (distributed by e-mail on request)
 - US Geological Survey: World Assessment of Undiscovered Oil and Gas Resources 2012 ([USGS 2012](https://pubs.usgs.gov/dds/dds-069/dds-069-ff/))
 - Federal Institute for Geosciences and Natural Resources (BGR): BGR Energy Study 2019. Data and Developments Concerning German and Global Energy Supplies ([BGR 2019](https://www.bgr.bund.de/EN/Themen/Energie/Produkte/energy_study_2019_summary_en.html))
 - World Energy Council: World Energy Resources Survey 2013 ([WEC2013](https://www.worldenergy.org/assets/images/imported/2013/09/Complete_WER_2013_Survey.pdf))
