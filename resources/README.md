@@ -37,3 +37,4 @@ Model data
 - Pietzcker et al. (2014) Using the sun to decarbonize the power sector: The economic potential of photovoltaics and concentrating solar power. Applied Energy 135, pp 704–720. [doi:10.1016/j.apenergy.2014.08.011](https://doi.org/10.1016/j.apenergy.2014.08.011).
   - Global solar PV and CSP supply curves ([Pietzcker 2014](http://www.fp7-advance.eu/sites/default/files/documents/TB_WP5/ADVANCE_VREresources_Solar_byCountry.xlsx))
 - Arvesen et al. (2018) and Pehl et al. (2018) [ADVANCE Environmental impacts module](http://fp7-advance.eu/?q=content/environmental-impacts-module)
+- Kermeli et al. (2016) [ADVANCE Industrial sector cement guideline](http://fp7-advance.eu/?q=content/industrial-sector-cement-guideline)
