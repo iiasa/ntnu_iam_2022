@@ -15,7 +15,7 @@ Dates
 
 ### 2 March
 - Philip: Arvesen et al. (2018) Deriving life cycle assessment coefficients for application in integrated assessment modelling. Environmental Modelling & Software 99, pp 111-125, [doi:10.1016/j.envsoft.2017.09.010](https://doi.org/10.1016/j.envsoft.2017.09.010)
-- TDB
+- Elisa: Mendoza Beltran et al. (2020) When the Background Matters : Using Scenarios from Integrated Assessment Models in Prospective Life Cycle Assessment. Journal of Industrial Ecology, 24(1), pp 64–79. [doi:10.1111/jiec.12825](https://doi.org/10.1111/jiec.12825)
 - consultation
 
 ### 9 March
