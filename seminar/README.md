@@ -19,6 +19,7 @@ Dates
 - consultation
 
 ### 9 March
+- Rita: Saujot et al. (2021) Lifestyle changes in mitigation pathways: policy and scientific insights. Environ. Res. Lett. 16 015005. [doi:10.1088/1748-9326/abd0a9](https://doi.org/10.1088/1748-9326/abd0a9)
 - TDB
 - consultation
 
