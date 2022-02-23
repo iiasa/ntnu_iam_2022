@@ -20,13 +20,15 @@ Dates
 
 ### 9 March
 - Rita: Saujot et al. (2021) Lifestyle changes in mitigation pathways: policy and scientific insights. Environ. Res. Lett. 16 015005. [doi:10.1088/1748-9326/abd0a9](https://doi.org/10.1088/1748-9326/abd0a9)
-- TDB
+- Kamila: TBD
 - consultation
 
 ### 14 March
-- TDB
+- Jan: Yeh et al. (2017) Detailed assessment of global transport-energy models’ structures and projections. Transportation Research Part D: Transport and Environment 55, pp 294-309 .[doi:10.1016/j.trd.2016.11.001](https://doi.org/10.1016/j.trd.2016.11.001)
+- Diogo: Edelenbosch et al. (2017). Transport fuel demand responses to fuel price and income projections: Comparison of integrated assessment models. Transportation Research Part D: Transport and Environment, 55, pp 310-321 [doi:10.1016/j.trd.2017.03.005](https://doi.org/10.1016/j.trd.2017.03.005).
 - consultation
 
 ### 16 March
-- TDB
+- Nelson: Grubler et al. (2018) A low energy demand scenario for meeting the 1.5?°C target and sustainable development goals without negative emission technologies. Nature Energy 3:515-527. [doi:10.1038/s41560-018-0172-6](https://doi.org/10.1038/s41560-018-0172-6).
+- Mahmoud: Stehfest et al. (2019) Key determinants of global land-use projections. Nature Communications 10(1), 2166. [doi:10.1038/s41467-019-09945-w](https://doi.org/10.1038/s41467-019-09945-w).
 - consultation
