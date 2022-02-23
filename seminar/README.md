@@ -28,6 +28,5 @@ Dates
 - consultation
 
 ### 16 March
-- Nelsonrubler et al. (2018) A low energy demand scenario for meeting the 1.5?°C target and sustainable development goals without negative emission technologies. Nature Energy 3:515-527. [doi:10.1038/s41560-018-0172-6](https://doi.org/10.1038/s41560-018-0172-6).
 - TDB
 - consultation
