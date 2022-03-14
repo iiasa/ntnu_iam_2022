@@ -18,6 +18,7 @@ MESSAGE
   level_resource and level_renewable are used to map commodities to exaustible and renewable resources, respectively (see [documentation](https://docs.messageix.org/en/latest/model/MESSAGE/sets_maps_def.html#category-types-and-mappings)). MESSAGEix allows to nested hierarchical spatial and temporal structures. The sets lvl_temporal and lvl_spatial are used to construct these hierarchies (see [documentation](https://docs.messageix.org/en/latest/model/MESSAGE/sets_maps_def.html#sets-in-the-messageix-implementation)).
 - Would be nice to have an explanation of variables/parameters used in spreadsheet, e.g., what is i_spec or weight_trp (relation) or 90_rel (rating)
   i_spec is specific electricity demand in industry, weight_trp is an equation , and 90_rel is a rating bin relevant for modeling non-dispatchable technologies (e.g., wind, solar, see [documentation](https://docs.messageix.org/en/latest/model/MESSAGE/model_core.html#auxilary-variables-for-technology-activity-by-rating-bins)).
+- Can the demand distinction of supply-and-use tables (intermediate+final) be maintained in MESSAGE or is that too deterministic, i.e. can there only be one aggregate demand (marked as useful)? And related to that: What exactly is demand_fixed in the auxiliary commodity_balance? Can all demand levels be set arbitrarily? If so, how, and what would be the implications?
 
 MACRO
 -----
@@ -33,6 +34,14 @@ MACRO
   These parameters are specific to MACRO and as we skipped MACRO in the course. Their definition is part of the [MACRO GAMS code](https://github.com/iiasa/message_ix/blob/main/message_ix/model/MACRO/macro_data_load.gms) (see lines 53-97), but should be added to the web-based [MACRO documentation](https://docs.messageix.org/en/latest/model/MACRO/macro_core.html).
 - How/why were MERtoPPP rates chosen?
   MERtoPPP ratios are also part of MACRO (which works in MER metric) and have been derived from SSP GDP projections.
+- Labour:
+  - Where in the model is labour used and how? Which units are labour-related parameters given? $, h, or # of people?
+  - Can total labour supply be determined exogenously? (labour supply growth can...)
+  - Is it possible that absolute labour related parameters are missing in the spreadsheet?
+
+- Is there some more detailed, up-to-date documentation of the MACRO model available, e.g. in the form of a paper?
+- How is capital depreciation represented? Simply via duration_period? What unit is capital formation given in? $, GWa, or other?
+- Could you explain how the elasticity of substitution works in MACRO? It appears that only a cross-market, generic, country-specific parameter (esub aka epsilon, included in rho) is chosen instead of distinguishing between capital, labour, energy separately. Does that mean that capital and labour as an aggregate can be substituted by energy, and vice versa? Can high and low skilled labour be substituted? How about introducing another substituent such as non-energy commodities?
 
 Scenario implementation
 -----------------------
