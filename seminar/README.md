@@ -24,12 +24,8 @@ Dates
 - consultation
 
 ### 14 March
-<<<<<<< HEAD
-- Edelenbosch, O. Y., Van Vuuren, D. P., Bertram, C., Carrara, S., Emmerling, J., Daly, H., ... & Failali, N. S. (2017). Transport fuel demand responses to fuel price and income projections: Comparison of integrated assessment models. Transportation Research Part D: Transport and Environment, 55, 310-321.
-=======
 - Jan: Yeh et al. (2017) Detailed assessment of global transport-energy models’ structures and projections. Transportation Research Part D: Transport and Environment 55, pp 294-309 .[doi:10.1016/j.trd.2016.11.001](https://doi.org/10.1016/j.trd.2016.11.001)
 - Diogo: Edelenbosch et al. (2017). Transport fuel demand responses to fuel price and income projections: Comparison of integrated assessment models. Transportation Research Part D: Transport and Environment, 55, pp 310-321 [doi:10.1016/j.trd.2017.03.005](https://doi.org/10.1016/j.trd.2017.03.005).
->>>>>>> edf8749d3bca002fcdd49cce7441b2fd7df1631f
 - consultation
 
 ### 16 March (morning)
