@@ -20,7 +20,7 @@ Dates
 
 ### 9 March
 - Rita: Saujot et al. (2021) Lifestyle changes in mitigation pathways: policy and scientific insights. Environ. Res. Lett. 16 015005. [doi:10.1088/1748-9326/abd0a9](https://doi.org/10.1088/1748-9326/abd0a9)
-- Kamila: McCollum et al. (2017) Improving the behavioral realism of global integrated assessment models: An application to consumers vehicle choices. Transportation Research Part D: Transport and Environment 55:322-342. [doi:10.1016/j.trd.2016.04.003](https://doi.org/10.1016/j.trd.2016.04.003)
+- [Kamila](behavioral%20realism%20in%20IAMs.pdf): McCollum et al. (2017) Improving the behavioral realism of global integrated assessment models: An application to consumers vehicle choices. Transportation Research Part D: Transport and Environment 55:322-342. [doi:10.1016/j.trd.2016.04.003](https://doi.org/10.1016/j.trd.2016.04.003)
 - consultation
 
 ### 14 March
