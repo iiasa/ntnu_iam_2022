@@ -19,6 +19,7 @@ MESSAGE
 - Would be nice to have an explanation of variables/parameters used in spreadsheet, e.g., what is i_spec or weight_trp (relation) or 90_rel (rating)
   i_spec is specific electricity demand in industry, weight_trp is an equation , and 90_rel is a rating bin relevant for modeling non-dispatchable technologies (e.g., wind, solar, see [documentation](https://docs.messageix.org/en/latest/model/MESSAGE/model_core.html#auxilary-variables-for-technology-activity-by-rating-bins)).
 - Can the demand distinction of supply-and-use tables (intermediate+final) be maintained in MESSAGE or is that too deterministic, i.e. can there only be one aggregate demand (marked as useful)? And related to that: What exactly is demand_fixed in the auxiliary commodity_balance? Can all demand levels be set arbitrarily? If so, how, and what would be the implications?
+  In principle, additional demands can be specified and existing demand can thus be split into different categories (e.g., intermediate and final supply-and-use table categories). A central question is how to incorporate relevant feedback effects for the intermediate demands in particular.
 
 MACRO
 -----
@@ -34,14 +35,20 @@ MACRO
   These parameters are specific to MACRO and as we skipped MACRO in the course. Their definition is part of the [MACRO GAMS code](https://github.com/iiasa/message_ix/blob/main/message_ix/model/MACRO/macro_data_load.gms) (see lines 53-97), but should be added to the web-based [MACRO documentation](https://docs.messageix.org/en/latest/model/MACRO/macro_core.html).
 - How/why were MERtoPPP rates chosen?
   MERtoPPP ratios are also part of MACRO (which works in MER metric) and have been derived from SSP GDP projections.
-- Labour:
+- Labor:
   - Where in the model is labour used and how? Which units are labour-related parameters given? $, h, or # of people?
-  - Can total labour supply be determined exogenously? (labour supply growth can...)
-  - Is it possible that absolute labour related parameters are missing in the spreadsheet?
-
+    Labor enters the [production function](https://docs.messageix.org/en/latest/model/MACRO/macro_core.html#equation-new-production) together with capital and energy. In contrast to the other two factors, labor appears differently in the production function as it is chosen to be the numeraire. In other words, labor supply is exogenously set as a benchmark for the other two production factors via the parameter newlab which is defined as follows:
+    newlab(y) = labor(y) - labor(y-1)*(1 - depr)**duration_period(y) with labor(y+1) = labor(y) * (1 + grow(y))**duration_period(y) where depr is the depreciation rate
+    The relevant parameter is grow which can effectively be interpreted as labor productivity growth and, everything else (energy prices, demands, etc.) being equal, translates into GDP growth Therefore it is also referred to as potential GDP growth. In practice, MACRO is usually tuned to an exogenously specified GDP path and energy demand/price trajectory from MESSAGE by calibrating the aeei (= autonomous energy efficiency improvement) and grow parameters.
+  - Can total labor supply be determined exogenously? (labor supply growth can...)
+    As explained above, the parameter grow can be used to do so. In most practical applications of MACRO, the parameter is, however, used to calibrate MACRO to reproduce an exogenously specified GDP trajectory.
+  - Is it possible that absolute labor related parameters are missing in the spreadsheet?
+    As explained above, grow is the relevant parameter.
 - Is there some more detailed, up-to-date documentation of the MACRO model available, e.g. in the form of a paper?
 - How is capital depreciation represented? Simply via duration_period? What unit is capital formation given in? $, GWa, or other?
+  Capital depreciation is governed by the [total capital equation](https://docs.messageix.org/en/latest/model/MACRO/macro_core.html#equation-total-capital) in MACRO.
 - Could you explain how the elasticity of substitution works in MACRO? It appears that only a cross-market, generic, country-specific parameter (esub aka epsilon, included in rho) is chosen instead of distinguishing between capital, labour, energy separately. Does that mean that capital and labour as an aggregate can be substituted by energy, and vice versa? Can high and low skilled labour be substituted? How about introducing another substituent such as non-energy commodities?
+  see presentation on 16 March.
 
 Scenario implementation
 -----------------------
