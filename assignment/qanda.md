@@ -20,6 +20,12 @@ MESSAGE
   i_spec is specific electricity demand in industry, weight_trp is an equation , and 90_rel is a rating bin relevant for modeling non-dispatchable technologies (e.g., wind, solar, see [documentation](https://docs.messageix.org/en/latest/model/MESSAGE/model_core.html#auxilary-variables-for-technology-activity-by-rating-bins)).
 - Can the demand distinction of supply-and-use tables (intermediate+final) be maintained in MESSAGE or is that too deterministic, i.e. can there only be one aggregate demand (marked as useful)? And related to that: What exactly is demand_fixed in the auxiliary commodity_balance? Can all demand levels be set arbitrarily? If so, how, and what would be the implications?
   In principle, additional demands can be specified and existing demand can thus be split into different categories (e.g., intermediate and final supply-and-use table categories). A central question is how to incorporate relevant feedback effects for the intermediate demands in particular.
+- In the South Africa Model, there is a technology called gas_ind but I was unable to find this in the technology description file.
+  This seems to be a leftover which only has a couple of parameters set for the period 2010 for which the model is not run. So safe to ignore.
+-	For tabs bound activity_lo and bound activity_up, some technologies have values until 2070 while some only have for 2020, what is the difference and what is the rational driving this?
+  Values of these constraints in 2020 are related to base year calibration. Values going beyond 2020 are used to limit the deployment of technologies related to physical or other limits.
+-	Concerning oil, we have loil, foil distinguish as technologies, but in the Data from IEA, there is also crude oil production, and other deratives like kerosene, etc. How does one distinguish this?
+  The South Africa model includes three oil-based commodities, crudeoil, lightoil and fueloil. The latter aggregate different oil products rather than presenting them individually. Light oil-based commodities up to diesel are represented by lightoil, and heavier products such as heavy fuel oil, bitumen, etc. are represented by fueloil.
 
 MACRO
 -----
@@ -35,6 +41,8 @@ MACRO
   These parameters are specific to MACRO and as we skipped MACRO in the course. Their definition is part of the [MACRO GAMS code](https://github.com/iiasa/message_ix/blob/main/message_ix/model/MACRO/macro_data_load.gms) (see lines 53-97), but should be added to the web-based [MACRO documentation](https://docs.messageix.org/en/latest/model/MACRO/macro_core.html).
 - How/why were MERtoPPP rates chosen?
   MERtoPPP ratios are also part of MACRO (which works in MER metric) and have been derived from SSP GDP projections.
+- What does aeei mean ? And how are the values calculated?
+  aeei stands for "autonomous energy efficiency improvement" and is a MACRO parameter that is used to align MACRO behavior to energy demands projected with MESSAGE. In a scenario development cycle, one would develop and energy scenario (typically a baseline) with MESSAGE and then calibrate aeei parameters so that MACRO is consistent with a set of demand and price projections from MESSAGE. Changes of energy prices in MESSAGE as a result of shocks (e.g., emission reduction target) then lead to a demand response in MACRO that is fed back to MESSAGE.
 - Labor:
   - Where in the model is labour used and how? Which units are labour-related parameters given? $, h, or # of people?
     Labor enters the [production function](https://docs.messageix.org/en/latest/model/MACRO/macro_core.html#equation-new-production) together with capital and energy. In contrast to the other two factors, labor appears differently in the production function as it is chosen to be the numeraire. In other words, labor supply is exogenously set as a benchmark for the other two production factors via the parameter newlab which is defined as follows:
