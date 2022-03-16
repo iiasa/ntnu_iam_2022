@@ -24,7 +24,6 @@ Dates
 - consultation
 
 ### 14 March
-- Jan: Yeh et al. (2017) Detailed assessment of global transport-energy models’ structures and projections. Transportation Research Part D: Transport and Environment 55, pp 294-309 .[doi:10.1016/j.trd.2016.11.001](https://doi.org/10.1016/j.trd.2016.11.001)
 - Diogo: Edelenbosch et al. (2017). Transport fuel demand responses to fuel price and income projections: Comparison of integrated assessment models. Transportation Research Part D: Transport and Environment, 55, pp 310-321 [doi:10.1016/j.trd.2017.03.005](https://doi.org/10.1016/j.trd.2017.03.005).
 - consultation
 
@@ -35,5 +34,6 @@ Dates
 
 ### 16 March (afternoon)
 - Nelson: Grubler et al. (2018) A low energy demand scenario for meeting the 1.5?°C target and sustainable development goals without negative emission technologies. Nature Energy 3:515-527. [doi:10.1038/s41560-018-0172-6](https://doi.org/10.1038/s41560-018-0172-6).
+- Jan: Yeh et al. (2017) Detailed assessment of global transport-energy models’ structures and projections. Transportation Research Part D: Transport and Environment 55, pp 294-309 .[doi:10.1016/j.trd.2016.11.001](https://doi.org/10.1016/j.trd.2016.11.001)
 - consultation
 - wrap-up
