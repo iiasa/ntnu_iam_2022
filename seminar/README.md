@@ -29,7 +29,7 @@ Dates
 
 ### 16 March (morning)
 - Mahmoud: Stehfest et al. (2019) Key determinants of global land-use projections. Nature Communications 10(1), 2166. [doi:10.1038/s41467-019-09945-w](https://doi.org/10.1038/s41467-019-09945-w).
-- Max: Leclere et al. (2020) Bending the curve of terrestrial biodiversity needs an integrated strategy. Nature 585, pp 551–556. [doi:10.1038/s41586-020-2705-y](https://doi.org/10.1038/s41586-020-2705-y); presentation available at https://github.com/iiasa/ntnu_iam_2022/blob/6aa191d2efd302be889bbf0703b4c2547a8881ee/seminar/20220225_Max_seminar_biodiv.pptx
+- [Max](20220225_Max_seminar_biodiv.pptx): Leclere et al. (2020) Bending the curve of terrestrial biodiversity needs an integrated strategy. Nature 585, pp 551–556. [doi:10.1038/s41586-020-2705-y](https://doi.org/10.1038/s41586-020-2705-y)
 - consultation
 
 ### 16 March (afternoon)
