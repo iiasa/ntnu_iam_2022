@@ -57,6 +57,11 @@ MACRO
   Capital depreciation is governed by the [total capital equation](https://docs.messageix.org/en/latest/model/MACRO/macro_core.html#equation-total-capital) in MACRO.
 - Could you explain how the elasticity of substitution works in MACRO? It appears that only a cross-market, generic, country-specific parameter (esub aka epsilon, included in rho) is chosen instead of distinguishing between capital, labour, energy separately. Does that mean that capital and labour as an aggregate can be substituted by energy, and vice versa? Can high and low skilled labour be substituted? How about introducing another substituent such as non-energy commodities?
   see presentation on 16 March.
+- How are MESSAGE and MACRO linked? I presume via energy system costs, i.e. EC, which is then again included in the capital constraint. But how exactly does that link work? I tried to understand it based on the GAMS code but haven't gotten clarity yet.
+- Also, How (if at all) are capital and capacity linked? Which linkages does total capital stock have otherwise (only net capital formation is indirectly included in production function)?
+- Why is COST_NODAL_NET calculated in two different files: MESSAGE_MACRO_run.gms and model_solve.gms? Same for GDP/Y in MESSAGE_MACRO_run.gms and macro_core.gms (I notice that the nodes are declared differently; what's the reason behind that?)
+- For TOTAL_PRODUCTION and other variables in MACRO, it says that energy sectors are not included - is that true given that NEWENE is included via NEW_PRODUCTION and via PRODENE/PHYSENE/EC?
+- What are the roles of demand_fixed, DEMAND.L, and DEMAND.I?
 
 Scenario implementation
 -----------------------
