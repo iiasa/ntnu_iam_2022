@@ -15,11 +15,11 @@ Dates
 
 ### 2 March
 - Philip: Arvesen et al. (2018) Deriving life cycle assessment coefficients for application in integrated assessment modelling. Environmental Modelling & Software 99, pp 111-125, [doi:10.1016/j.envsoft.2017.09.010](https://doi.org/10.1016/j.envsoft.2017.09.010)
-- Elisa: Mendoza Beltran et al. (2020) When the Background Matters : Using Scenarios from Integrated Assessment Models in Prospective Life Cycle Assessment. Journal of Industrial Ecology, 24(1), pp 64–79. [doi:10.1111/jiec.12825](https://doi.org/10.1111/jiec.12825)
+- [Elisa](Seminar_Elisa.pdf): Mendoza Beltran et al. (2020) When the Background Matters : Using Scenarios from Integrated Assessment Models in Prospective Life Cycle Assessment. Journal of Industrial Ecology, 24(1), pp 64–79. [doi:10.1111/jiec.12825](https://doi.org/10.1111/jiec.12825)
 - consultation
 
 ### 9 March
-- Rita: Saujot et al. (2021) Lifestyle changes in mitigation pathways: policy and scientific insights. Environ. Res. Lett. 16 015005. [doi:10.1088/1748-9326/abd0a9](https://doi.org/10.1088/1748-9326/abd0a9)
+- [Rita](Presentation_Lifestyle_changes_Rita.pdf): Saujot et al. (2021) Lifestyle changes in mitigation pathways: policy and scientific insights. Environ. Res. Lett. 16 015005. [doi:10.1088/1748-9326/abd0a9](https://doi.org/10.1088/1748-9326/abd0a9)
 - [Kamila](behavioral%20realism%20in%20IAMs.pdf): McCollum et al. (2017) Improving the behavioral realism of global integrated assessment models: An application to consumers vehicle choices. Transportation Research Part D: Transport and Environment 55:322-342. [doi:10.1016/j.trd.2016.04.003](https://doi.org/10.1016/j.trd.2016.04.003)
 - consultation
 
@@ -34,6 +34,6 @@ Dates
 
 ### 16 March (afternoon)
 - Nelson: Grubler et al. (2018) A low energy demand scenario for meeting the 1.5?°C target and sustainable development goals without negative emission technologies. Nature Energy 3:515-527. [doi:10.1038/s41560-018-0172-6](https://doi.org/10.1038/s41560-018-0172-6).
-- Jan: Yeh et al. (2017) Detailed assessment of global transport-energy models’ structures and projections. Transportation Research Part D: Transport and Environment 55, pp 294-309 .[doi:10.1016/j.trd.2016.11.001](https://doi.org/10.1016/j.trd.2016.11.001)
+- [Jan](Jan_Klenner_Yeh_et_al_Global_transport_energy_models.pdf): Yeh et al. (2017) Detailed assessment of global transport-energy models’ structures and projections. Transportation Research Part D: Transport and Environment 55, pp 294-309 .[doi:10.1016/j.trd.2016.11.001](https://doi.org/10.1016/j.trd.2016.11.001)
 - consultation
 - wrap-up
