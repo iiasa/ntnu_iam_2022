@@ -33,7 +33,7 @@ Dates
 - consultation
 
 ### 16 March (afternoon)
-- Nelson: Grubler et al. (2018) A low energy demand scenario for meeting the 1.5?°C target and sustainable development goals without negative emission technologies. Nature Energy 3:515-527. [doi:10.1038/s41560-018-0172-6](https://doi.org/10.1038/s41560-018-0172-6).
+- [Nelson](../blob/master/seminar/Low_Energy_Demand_Scenario_Grubler_et_al.pdf): Grubler et al. (2018) A low energy demand scenario for meeting the 1.5?°C target and sustainable development goals without negative emission technologies. Nature Energy 3:515-527. [doi:10.1038/s41560-018-0172-6](https://doi.org/10.1038/s41560-018-0172-6).
 - [Jan](Jan_Klenner_Yeh_et_al_Global_transport_energy_models.pdf): Yeh et al. (2017) Detailed assessment of global transport-energy models’ structures and projections. Transportation Research Part D: Transport and Environment 55, pp 294-309 .[doi:10.1016/j.trd.2016.11.001](https://doi.org/10.1016/j.trd.2016.11.001)
 - consultation
 - wrap-up
